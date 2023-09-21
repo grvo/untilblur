@@ -9571,12 +9571,12 @@ function NavBar_svelte_create_fragment(ctx) {
 	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[7], null);
 
 	link0 = new Link_svelte({
-			props: { link: "/art", text: "/art" },
+			props: { link: "/art.html", text: "/art" },
 			$$inline: true
 		});
 
 	link1 = new Link_svelte({
-			props: { link: "/music", text: "/music" },
+			props: { link: "/music.html", text: "/music" },
 			$$inline: true
 		});
 
@@ -9589,17 +9589,17 @@ function NavBar_svelte_create_fragment(ctx) {
 		});
 
 	link3 = new Link_svelte({
-			props: { link: "/blog", text: "/blog" },
+			props: { link: "/blog.html", text: "/blog" },
 			$$inline: true
 		});
 
 	link4 = new Link_svelte({
-			props: { link: "/projects", text: "/projects" },
+			props: { link: "/projects.html", text: "/projects" },
 			$$inline: true
 		});
 
 	link5 = new Link_svelte({
-			props: { link: "/about", text: "/about" },
+			props: { link: "/about.html", text: "/about" },
 			$$inline: true
 		});
 
