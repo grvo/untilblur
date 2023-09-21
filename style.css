@@ -1,0 +1,77 @@
+/* petrona - normal */
+@font-face {
+    font-family: "Petrona";
+    /* font-style: normal; */
+    /* font-weight: 400; */
+
+    src: url("./Petrona-VariableFont_wght.ttf") format("truetype");
+}
+
+/* petrona - itálico */
+@font-face {
+    font-family: "Petrona";
+    font-style: italic;
+
+    src: url("./Petrona-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+/* jetbrains mono - normal */
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 400;
+
+    src: url("./JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+/* @import url("./prism-gruvbox-dark.css"); */
+@import url("./prism-coy-without-shadows.css");
+
+code * {
+    font-family: "JetBrains Mono";
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+
+    --main-max-width: 40rem;
+
+    --text-font-weight: 500;
+    --link-font-weight: 800;
+
+    --accent-light: orange;
+    --accent-dark: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    background: var(--accent-light);
+
+    /* filter: invert() hue-rotate(2.14rad) saturate(0.5); */
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+    touch-action: none;
+}
